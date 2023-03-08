@@ -1,6 +1,13 @@
 # setup
 All the programs I used and their setup
 
+## Terminal colortheme
+- [Gogh-Co](https://github.com/Gogh-Co/Gogh): easy theme setup
+```bash
+sudo apt-get install dconf-cli uuid-runtime # prerequisits
+bash -c "$(wget -qO- https://git.io/vQgMr)"
+```
+
 ## Rust utils
 - [Starship](https://starship.rs/): a cross-shell prompt
 ```bash
@@ -37,4 +44,8 @@ cargo install gitui
 - [Tokei](https://github.com/XAMPPRocky/tokei): count your code, quickly
 ```bash
 cargo install tokei
+```
+- [Zellij](https://github.com/zellij-org/zellij): terminal multiplexer
+```bash
+cargo install --locked zellij
 ```
