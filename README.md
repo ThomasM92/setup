@@ -49,3 +49,8 @@ cargo install tokei
 ```bash
 cargo install --locked zellij
 ```
+## Miscs
+- Git logs as an alias in .bashrc
+```bash
+alias gitl='git log --graph --decorate --oneline --all'
+  ```
