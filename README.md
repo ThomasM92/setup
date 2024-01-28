@@ -49,6 +49,14 @@ cargo install tokei
 ```bash
 cargo install --locked zellij
 ```
+- [Toipe](https://github.com/Samyak2/toipe): a trusty terminal typing tester
+```bash
+cargo install toipe
+```
+- [fzf](https://github.com/junegunn/fzf): general-purpose command-line fuzzy finder
+```bash
+sudo apt install fzf
+```
 ## Miscs
 - Git logs as an alias in .bashrc
 ```bash
