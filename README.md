@@ -74,3 +74,12 @@ alias d='cd $(fd -t d . $HOME | fzf --height=50% --layout=reverse --info=inline 
 ```bash
 alias gitl='git log --graph --decorate --oneline --all'
   ```
+- wmctrl for window swaping
+```bash
+sudo apt-get install wmctrl
+```
+and in linux shortcut
+```bash
+sh -c 'wmctrl -xa gnome-terminal || gnome-terminal'
+sh -c 'wmctrl -xa brave-browser || brave-browser'
+```
