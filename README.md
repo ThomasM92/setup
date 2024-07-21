@@ -49,9 +49,13 @@ cargo install tokei
 ```bash
 cargo install --locked zellij
 ```
-- [Toipe](https://github.com/Samyak2/toipe): a trusty terminal typing tester
+- [Toipe](https://github.com/Samyak2/toipe): terminal typing tester
 ```bash
 cargo install toipe
+```
+- [Hyperfine](https://github.com/sharkdp/hyperfine?tab=readme-ov-file): command-line benchmarking tool
+```bash
+cargo install --locked hyperfine
 ```
 - [fzf](https://github.com/junegunn/fzf): general-purpose command-line fuzzy finder
 ```bash
