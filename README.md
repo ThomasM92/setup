@@ -86,4 +86,5 @@ and in linux shortcut
 ```bash
 sh -c 'wmctrl -xa gnome-terminal || gnome-terminal'
 sh -c 'wmctrl -xa brave-browser || brave-browser'
+sh -c 'wmctrl -xa nautilus || nautilus'
 ```
